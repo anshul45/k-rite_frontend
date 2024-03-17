@@ -63,7 +63,7 @@ const Folders = () => {
             {openAddFolder && (
                 <>
                     <div className="absolute top-0 left-0 h-screen w-full" onClick={() => setOpenAddFolder(false)}></div>
-                    <input className="border-2 focus:outline-none px-1 rounded-md relative z-10" type="text" value={folderNameInput} onChange={(e) => setFolderNameInput(e.target.value)} onKeyPress={handleFolderInputKeyPress} />
+                    <input className="border-[1px] focus:outline-none px-1 rounded-md relative z-10" type="text" value={folderNameInput} onChange={(e) => setFolderNameInput(e.target.value)} onKeyPress={handleFolderInputKeyPress} />
                 </>
             )}
             {folderData.map((data, index) => (
@@ -84,7 +84,7 @@ const Folders = () => {
                             {openAddnewsub ? (
                                 <>
                                     <div className="absolute top-0 left-0 h-screen w-full" onClick={() => { setOpenAddnewsub(false); setSubNameInput(""); }}></div>
-                                    <input className="relative z-10 border-2 rounded-md focus:outline-none px-1" type="text" value={subNameInput} onChange={(e) => setSubNameInput(e.target.value)} onKeyPress={(e) => handleSubInputKeyPress(e, data.name)} />
+                                    <input className="relative z-10 border-[1px] rounded-md focus:outline-none px-1" type="text" value={subNameInput} onChange={(e) => setSubNameInput(e.target.value)} onKeyPress={(e) => handleSubInputKeyPress(e, data.name)} />
                                 </>
                             ) : (
                                 <button className="text-gray-400" onClick={() => setOpenAddnewsub(true)}><i className="ri-add-box-line mr-2"></i>Add new sub</button>
