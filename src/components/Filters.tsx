@@ -7,34 +7,34 @@ const Filters = () => {
 
                 <div className='flex justify-between items-center px-5 py-2.5'>
                     <div className='flex gap-3 items-center'>
-                        <div className='border-[1px] px-1 rounded-md cursor-pointer'>
+                        <div className='border-[1px] px-1.5 py-0.5 rounded-md cursor-pointer'>
                             <i className="ri-apps-2-line mr-1"></i>
                             All brands
                             <i className="ri-arrow-down-s-fill ml-1"></i>
                         </div>
-                        <div className='border-[1px] px-1.5 rounded-md cursor-pointer'>
+                        <div className='border-[1px] px-1.5 py-0.5 rounded-md cursor-pointer'>
                             Desk
                             <i className="ri-arrow-down-s-fill ml-2"></i>
                         </div>
-                        <div className='border-[1px] px-1.5 rounded-md cursor-pointer'>
+                        <div className='border-[1px] px-1.5 py-0.5 rounded-md cursor-pointer'>
                             Tags
                             <i className="ri-arrow-down-s-fill ml-2"></i>
                         </div>
-                        <div className='border-[1px] px-1.5 rounded-md cursor-pointer'>
+                        <div className='border-[1px] px-1.5 py-0.5 rounded-md cursor-pointer'>
                             <i className="ri-sort-alphabet-asc mr-2"></i>
                             Sort
                         </div>
-                        <div className='border-[1px] px-1.5 rounded-md cursor-pointer'>
+                        <div className='border-[1px] px-1.5 py-0.5 rounded-md cursor-pointer'>
                             <i className="ri-equalizer-line mr-2"></i>
                             FIlter
                         </div>
                     </div>
                     <div className='flex gap-3 items-center'>
-                        <div className='border-[1px] px-1.5 rounded-md cursor-pointer'>
+                        <div className='border-[1px] px-1.5 py-0.5 rounded-md cursor-pointer'>
                             <i className="ri-equalizer-line mr-2"></i>
                             Meeting
                         </div>
-                        <div className='border-[1px] px-1.5 rounded-md cursor-pointer'>
+                        <div className='border-[1px] px-1.5 py-0.5 rounded-md cursor-pointer'>
                             <i className="ri-equalizer-line mr-2"></i>
                             Import/Export
                         </div>

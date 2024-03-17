@@ -23,7 +23,9 @@ const Teams = () => {
 
     return (<div className="border-[1px] px-2 py-2 my-3 rounded-md">
         {team.map((data, index) => (
-            <div key={index}>{data}</div>
+            <div className="flex justify-between py-0.5" key={index}>{data} <div className='border-[1px] px-1 rounded-md cursor-pointer text-sm bg-gray-50'>
+                <i className="ri-apps-line"></i> + {index + 1}
+            </div></div>
         ))}
 
 
